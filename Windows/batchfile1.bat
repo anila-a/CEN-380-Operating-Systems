@@ -1,0 +1,16 @@
+@ECHO OFF
+ECHO THE PDF FILES IN THE CURRENT FOLDER ARE:
+REM list all pdf files in the directory
+DIR /b *.pdf
+PAUSE
+CLS
+ECHO THE RAR FILES IN THE CURRENT FOLDER ARE:
+:: list all rar files in the directory
+DIR /b *.rar
+PAUSE
+CLS
+ECHO THE MS.WORD FILES IN THE CURRENT FOLDER ARE:
+DIR /b *.docx
+ECHO.
+ECHO THIS BATCH IS OVER NOW
+PAUSE
